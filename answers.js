@@ -77,8 +77,19 @@ let ninjaArr = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
 //////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+//favMovies.sort()
+//favMovies.pop()
+//     favMovies.push('Guardians of the Galaxy')
+//favMovies.reverse()
+// let ultimateMovie= favMovies.shift()
+//    let theMovie = favMovies.unshift('X')
+let newMovie = favMovies.splice(0,1, 'Indigo')
 
 
+
+//console.log(favMovies)
+console.log(favMovies[18])
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
