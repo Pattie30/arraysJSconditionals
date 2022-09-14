@@ -93,7 +93,14 @@ console.log(favMovies[18])
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+//whereIsWaldo.splice(1,1 )
 
+//whereIsWaldo[1].splice(whereIsWaldo[1].indexOf("Neff"), 1, "No One") 
+let notNeff = whereIsWaldo.splice(2,1, 'no one')
+console.log(whereIsWaldo)
 
 ////////////////////////////////
 //  Excited Kitten
