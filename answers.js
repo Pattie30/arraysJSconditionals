@@ -10,8 +10,8 @@ for(let i = 0; i <= 20; i++) {
 // Get Even
 ////////////////////////////////
 
-for(let q = 0; q <= 200; q++){
-   if(q % 2 === 0){
+for(let q = 0; q <= 20; q++){               
+   if((q % 2 )=== 0){
     console.log(q)
 
    } else {
@@ -23,6 +23,24 @@ for(let q = 0; q <= 200; q++){
 ////////////////////////////////
 // Fizz Buzz
 ////////////////////////////////
+for(let m = 0; m <= 50; m++){    
+    if (m % 3 === 0 && m % 5 ===0) {
+        console.log('FIZZBUZZ')
+        
+    }else if(m % 3 === 0){
+    console.log('FIZZ')
+    
+    }else if(m % 5 === 0)  {
+        console.log('BUZZ')
+
+        }  else {
+        console.log(m)
+    }
+               
+            
+        } 
+    //////////////////// 
+    
 
 
 ////////////////////////////////
