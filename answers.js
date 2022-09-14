@@ -63,9 +63,18 @@ console.log(wolfy)
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
+let ninjaArr = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+  for(const ninjaArr2 of ninjaArr) {
+    
+    console.log(ninjaArr2.toUpperCase());
+  }
 
 
-////////////////////////////////
+
+  
+  
+//////////////
+//////////////////
 // Methods, Revisited
 ////////////////////////////////
 
