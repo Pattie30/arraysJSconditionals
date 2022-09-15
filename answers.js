@@ -119,7 +119,42 @@ console.log(whereIsWaldo)
 //  Find the Median
 ////////////////////////////////
 
+const arr1 = ( [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12]);
 
+function medianof2Arr(arr1) {
+    var concat = arr1;
+    concat = concat.sort(
+        function (a, b) { return a - b });
+
+    console.log(concat);
+    var length = concat.length;
+
+    if (length % 2 == 1) {
+
+        // If length is odd
+        console.log(concat[(length / 2) - .5])
+        return concat[(length / 2) - .5]
+
+    }
+    else {
+        console.log((concat[length / 2] 
+            + concat[(length / 2) - 1]) / 2);
+              
+        return (concat[length / 2] 
+            + concat[(length / 2) - 1]) / 2;
+    }
+}
+
+
+
+//arr1 = [1, 4, 7, 9]
+
+medianof2Arr(arr1)
+
+
+
+//Expected output:
+//=> 15
 
 
 
